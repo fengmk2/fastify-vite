@@ -70,8 +70,8 @@ export function viteFastify({ spa, clientModule, useRelativePaths = false } = {}
             if (envConfig.build?.outDir) {
               fastify.outDirs[env] = envConfig.build.outDir
             }
-            if (envConfig.build?.rollupOptions?.input?.index) {
-              return [env, envConfig.build?.rollupOptions?.input?.index]
+            if (envConfig.build?.rolldownOptions?.input?.index) {
+              return [env, envConfig.build?.rolldownOptions?.input?.index]
             }
             return false
           })

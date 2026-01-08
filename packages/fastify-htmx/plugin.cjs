@@ -49,12 +49,15 @@ function viteFastifyHtmx() {
     {
       name: 'vite-plugin-fastify-htmx',
       config(config, { command }) {
-        config.esbuild = {
-          jsxFactory: 'Html.createElement',
-          jsxFragment: 'Html.Fragment',
+        config.oxc = {
+          jsx: {
+            runtime: 'classic',
+            pragma: 'Html.createElement',
+            pragmaFrag: 'Html.Fragment',
+          },
         }
         if (command === 'build' && config.build?.ssr) {
-          config.build.rollupOptions = {
+          config.build.rolldownOptions = {
             output: {
               format: 'es',
             },

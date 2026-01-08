@@ -12,4 +12,7 @@ export default () => ({
       port: globalThis.port++,
     },
   },
+  optimizeDeps: {
+    noDiscovery: true,
+  },
 })

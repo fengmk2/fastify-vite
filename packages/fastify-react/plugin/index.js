@@ -71,10 +71,10 @@ function config(config, { command }) {
     if (!config.build) {
       config.build = {}
     }
-    if (!config.build.rollupOptions) {
-      config.build.rollupOptions = {}
+    if (!config.build.rolldownOptions) {
+      config.build.rolldownOptions = {}
     }
-    config.build.rollupOptions.onwarn = onwarn
+    config.build.rolldownOptions.onwarn = onwarn
   }
 }
 

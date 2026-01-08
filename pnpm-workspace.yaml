@@ -10,7 +10,7 @@ catalog:
   html-rewriter-wasm: ^0.4.1
   tsx: ^4.21.0
   typescript: ^5.9.3
-  vite: ^7.3.0
+  vite: 8.0.0-beta.7
   vitest: ^4.0.16
 
 catalogs:
