@@ -33,7 +33,7 @@ function createSSREnvironment(dev, outDir, clientModule) {
       minify: !dev,
       sourcemap: dev,
       emitAssets: true,
-      rollupOptions: {
+      rolldownOptions: {
         input: {
           index: clientModule,
         },

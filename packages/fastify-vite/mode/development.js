@@ -28,14 +28,14 @@ async function setup(config) {
 
     for (const env of Object.keys(nonClientEnvs)) {
       const environment = viteEnvsConfig.environments[env]
-      if (environment.build?.rollupOptions?.input?.index) {
-        const modulePath = environment.build.rollupOptions.input.index.startsWith(
+      if (environment.build?.rolldownOptions?.input?.index) {
+        const modulePath = environment.build.rolldownOptions.input.index.startsWith(
           config.virtualModulePrefix,
         )
-          ? environment.build.rollupOptions.input.index
+          ? environment.build.rolldownOptions.input.index
           : resolve(
               config.vite.root,
-              environment.build.rollupOptions.input.index.replace(/^\/+/, ''),
+              environment.build.rolldownOptions.input.index.replace(/^\/+/, ''),
             )
         entryModulePaths[env] = modulePath
       }
