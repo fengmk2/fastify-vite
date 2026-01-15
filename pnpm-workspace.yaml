@@ -10,9 +10,9 @@ catalog:
   html-rewriter-wasm: ^0.4.1
   tsx: ^4.21.0
   typescript: ^5.9.3
-  vite: npm:@voidzero-dev/vite-plus-core@latest
-  vitest: npm:@voidzero-dev/vite-plus-test@latest
-  '@voidzero-dev/vite-plus': latest
+  vite: npm:@voidzero-dev/vite-plus-core@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+  vitest: npm:@voidzero-dev/vite-plus-test@0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
+  '@voidzero-dev/vite-plus': 0.0.0-4a237d1f4051fedc0d68e997532d63fb484dfdbb
 
 catalogs:
   eslint:
