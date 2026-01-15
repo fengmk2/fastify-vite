@@ -1,6 +1,6 @@
 import type { Server } from 'node:http'
 import Fastify, { type FastifyPluginAsync } from 'fastify'
-import { describe, expectTypeOf, it } from 'vitest'
+import { describe, expectTypeOf, it } from '@voidzero-dev/vite-plus/test'
 import * as FastifyViteAll from '..'
 import FastifyVite, { type FastifyViteOptions } from '..'
 

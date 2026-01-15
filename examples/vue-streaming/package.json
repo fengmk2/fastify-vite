@@ -23,6 +23,7 @@
     "eslint": "catalog:eslint",
     "eslint-plugin-vue": "catalog:eslint",
     "globals": "catalog:eslint",
-    "vite": "catalog:"
+    "vite": "catalog:",
+    "@voidzero-dev/vite-plus": "catalog:"
   }
 }

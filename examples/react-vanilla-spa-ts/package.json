@@ -1,5 +1,5 @@
 {
-  "name": "@fastify-vite/example-react-vanilla-ts-src",
+  "name": "@fastify-vite/example-react-vanilla-spa-ts-src",
   "private": true,
   "type": "module",
   "scripts": {
@@ -23,6 +23,7 @@
     "@vitejs/plugin-react": "catalog:react",
     "tsx": "catalog:",
     "typescript": "catalog:",
-    "vite": "catalog:"
+    "vite": "catalog:",
+    "@voidzero-dev/vite-plus": "catalog:"
   }
 }

@@ -43,8 +43,8 @@
     "access": "public"
   },
   "scripts": {
-    "test": "vitest run --no-file-parallelism",
-    "test:type": "vitest --ui --typecheck"
+    "test": "vite test run --no-file-parallelism",
+    "test:type": "vite test --ui --typecheck"
   },
   "dependencies": {
     "@fastify/deepmerge": "^3.1.0",
@@ -61,7 +61,8 @@
     "@vitest/ui": "4.0.16",
     "fastify": "catalog:",
     "typescript": "catalog:",
-    "vitest": "catalog:"
+    "vitest": "catalog:",
+    "@voidzero-dev/vite-plus": "catalog:"
   },
   "peerDependencies": {
     "fastify": ">=5",

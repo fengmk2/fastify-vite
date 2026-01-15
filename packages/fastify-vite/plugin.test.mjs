@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect } from '@voidzero-dev/vite-plus/test'
 import { sep } from 'node:path'
 import { findCommonPath } from './plugin.mjs'
 
