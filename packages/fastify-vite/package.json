@@ -52,7 +52,7 @@
     "access": "public"
   },
   "scripts": {
-    "test": "vitest run --no-file-parallelism && vitest --typecheck.only --run"
+    "test": "vite test run --no-file-parallelism && vite test --typecheck.only --run"
   },
   "dependencies": {
     "@fastify/deepmerge": "^3.1.0",
@@ -68,6 +68,7 @@
     "@types/node": "^22.19.3",
     "fastify": "catalog:",
     "typescript": "catalog:",
+    "vite-plus": "catalog:",
     "vitest": "catalog:"
   },
   "peerDependencies": {

@@ -1,5 +1,5 @@
 import type { Plugin } from 'vite'
-import { describe, expectTypeOf, it } from 'vitest'
+import { describe, expectTypeOf, it } from 'vite-plus/test'
 import viteFastify, { findCommonPath, type ViteFastifyPluginOptions } from './plugin'
 
 describe('plugin types', () => {

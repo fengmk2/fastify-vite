@@ -28,6 +28,7 @@
     "tsx": "catalog:",
     "typescript-eslint": "catalog:eslint",
     "vite": "catalog:",
+    "vite-plus": "catalog:",
     "vue-eslint-parser": "catalog:eslint",
     "vue-tsc": "^2.2.8"
   }
