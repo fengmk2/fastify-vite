@@ -1,7 +1,7 @@
 import { setTimeout } from 'node:timers/promises'
 import assert from 'node:assert'
 import { join } from 'path'
-import { loadConfigFromFile, createBuilder, build } from 'vite'
+import { loadConfigFromFile, createBuilder, build } from 'vite-plus'
 
 export function makeIndexTest({ main, dev }) {
   return async () => {

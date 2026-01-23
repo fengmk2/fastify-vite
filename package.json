@@ -2,10 +2,10 @@
   "private": "true",
   "scripts": {
     "build": "pnpm --filter './packages/*' run --if-present build",
-    "format": "oxfmt --write .",
-    "format:check": "oxfmt --check .",
-    "lint": " pnpm -r run lint && oxlint .",
-    "lint:fix": "pnpm -r run lint:fix && oxlint --fix .",
+    "format": "vite fmt --write .",
+    "format:check": "vite fmt --check .",
+    "lint": " pnpm -r run lint && vite lint .",
+    "lint:fix": "pnpm -r run lint:fix && vite lint --fix .",
     "test": "pnpm --filter './packages/*' run --if-present test",
     "test:examples": "pnpm --filter './examples/*' run test",
     "prep-for-dev": "zx package.mjs --prep-for-dev",
@@ -13,9 +13,8 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.29.8",
-    "oxfmt": "^0.24.0",
-    "oxlint": "^1.39.0",
     "vite": "catalog:",
+    "vite-plus": "catalog:",
     "vitest": "catalog:",
     "zx": "^8.8.5"
   },
